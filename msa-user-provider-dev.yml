@@ -1,4 +1,4 @@
-server:
+spring:
   datasource:
     username: root
     password: root
