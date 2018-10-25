@@ -9,7 +9,6 @@ zuul:
       serviceId: msa-user-provider
       sensitiveHeaders:
   ignored-patterns:
-    - /msa-user-provider/hello
     - /api/hello
 management:
   security:
