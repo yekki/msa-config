@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     username: gniu
-    password: {cipher}b1f83b099368c039be8a798b5005f6fb0470a5065482266cf8ded42fcee8675a
+    password: gniu
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.50.88:3306/cloud01
   jpa:
