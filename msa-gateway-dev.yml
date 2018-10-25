@@ -1,3 +1,9 @@
 
 server:
   port: 8888
+
+zuul:
+  routes:
+    user:
+      path: /api/**
+      serviceId: msa-user-provider
