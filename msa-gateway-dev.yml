@@ -7,7 +7,7 @@ zuul:
     user:
       path: /api/**
       serviceId: msa-user-provider
-      sensitiveHeaders:
+      sensitiveHeaders: #空表示不过滤Cookie
   ignored-patterns:
     - /api/hello
 management:
