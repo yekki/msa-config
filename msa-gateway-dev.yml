@@ -7,3 +7,6 @@ zuul:
     user:
       path: /api/**
       serviceId: msa-user-provider
+management:
+  security:
+    enabled: false
