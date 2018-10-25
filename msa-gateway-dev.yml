@@ -7,6 +7,9 @@ zuul:
     user:
       path: /api/**
       serviceId: msa-user-provider
+      sensitiveHeaders:
+  ignored-patterns:
+    - /**/msa-user-provider/hello
 management:
   security:
     enabled: false
