@@ -15,5 +15,7 @@ app:
   email: 'gary.niu@gmail.com'
   
 management:
+  security:
+    enabled: false
   endpoints:
     expose: '*'
