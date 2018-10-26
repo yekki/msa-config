@@ -15,7 +15,10 @@ app:
   email: 'gary.niu@gmail.com'
   
 management:
-  security:
-    enabled: false
-  endpoints:
-    expose: '*'
+  endpoint:
+    refresh:
+      enabled: true
+  server:
+    servlet:
+      context-path: /monitor
+    port: 5001
