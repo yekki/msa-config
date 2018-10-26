@@ -10,6 +10,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-app:
-  author: 'yekki'
-  email: gary.niu@gmail.com
