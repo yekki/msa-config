@@ -11,7 +11,7 @@ spring:
       ddl-auto: update
     show-sql: true
 app:
-  author: 'Gary Niu'
+  author: 'yekki'
   email: 'gary.niu@gmail.com'
   
 
