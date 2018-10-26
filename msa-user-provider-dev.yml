@@ -16,6 +16,4 @@ app:
   
 management:
   endpoints:
-    web:
-      exposure:
-        include: *
+    expose: '*'
