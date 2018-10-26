@@ -18,6 +18,8 @@ management:
   endpoint:
     refresh:
       enabled: true
+    beans:
+      enabled: true
   server:
     servlet:
       context-path: /monitor
