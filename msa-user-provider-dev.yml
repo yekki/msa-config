@@ -10,3 +10,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+app:
+  author: 'Gary Niu'
+  email: 'gary.niu@gmail.com'
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
