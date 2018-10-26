@@ -14,13 +14,9 @@ app:
   author: 'Gary Niu'
   email: 'gary.niu@gmail.com'
   
+
 management:
-  endpoint:
-    refresh:
-      enabled: true
-    beans:
-      enabled: true
-  server:
-    servlet:
-      context-path: /monitor
-    port: 5001
+  endpoints:
+    web:
+      exposure:
+    include: '*'
