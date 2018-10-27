@@ -12,5 +12,5 @@ management:
       exposure:
         include: '*'
 app:
-  author: 'Gary Niu1'
+  author: 'Gary Niu'
   email: 'gary.niu@gmail.com'
