@@ -10,8 +10,14 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  rabbitmq:
+    host: config
+    port: 5672
+    username: gniu
+    password: '{cipher}b1f83b099368c039be8a798b5005f6fb0470a5065482266cf8ded42fcee8675a'
+
 app:
-  author: 'yekki'
+  author: 'Gary Niu'
   email: 'gary.niu@gmail.com'
   
 
