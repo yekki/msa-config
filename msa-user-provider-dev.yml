@@ -17,7 +17,7 @@ spring:
     password: '{cipher}b1f83b099368c039be8a798b5005f6fb0470a5065482266cf8ded42fcee8675a'
 
 app:
-  author: 'Gary Niu'
+  author: 'yekki'
   email: 'gary.niu@gmail.com'
   
 
