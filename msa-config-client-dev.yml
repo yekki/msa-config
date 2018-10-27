@@ -1,6 +1,11 @@
 server:
   port: 8788
-
+spring:
+  rabbitmq:
+      host: config
+      port: 5672
+      username: gniu
+      password: gniu
 management:
   endpoints:
     web:
